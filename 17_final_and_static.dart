@@ -15,4 +15,11 @@ main() {
 
   var y = X('Jill');
   print(y.name);
+
+  // You can use final and const out of a class too
+  final artistName = 'Lauv';
+  const albums = 2;
+
+  print(artistName);
+  print(albums);
 }
